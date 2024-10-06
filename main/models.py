@@ -244,4 +244,4 @@ class Schedule(models.Model):
 
     def __str__(self):
         return f"{self.day_of_week} {self.time_start}-{self.time_end} {self.subject} ({self.teacher})"
-    
+    #help
